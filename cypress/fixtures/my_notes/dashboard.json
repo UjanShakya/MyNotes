@@ -1,0 +1,20 @@
+{
+    "addNote_valid":{
+        "category":"Home",
+        "title":"test123",
+        "description":"This is for testing purpose only"
+    },
+    "addNote_invalid":{
+        "title":"tes",
+        "description":"Thi"
+    },
+    "editNote_valid":{
+        "category":"Work",
+        "title":"abcdefg",
+        "description":"This is for edit testing purpose only"
+    },
+    "editNote_invalid":{
+        "title":"tes",
+        "description":"Thi"
+    }
+}

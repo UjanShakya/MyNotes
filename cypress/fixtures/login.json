@@ -1,0 +1,12 @@
+{
+    "valid" : {
+        "email": "shakyaujan08@gmail.com",
+        "password": "test@123",
+        "expected": "MyNotes"
+    },
+    "invalid" : {
+        "email": "testuser@gassd.com",
+        "email_format":"asdsd",
+        "password": "secretpassword"
+    }
+}

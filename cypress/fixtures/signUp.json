@@ -1,0 +1,10 @@
+{
+    "add_invalid":{
+        "email":"asdsadsd",
+        "existing_email":"shakyaujan08@gmail.com",
+        "password":"test1234",
+        "weak_password":"123",
+        "weak_username":"abc",
+        "confirmPassword":"abcdefg"
+    }
+}
