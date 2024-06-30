@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open",
-    "test:smoke": "npx cypress run --env grepTags=smoke",
-    "test:regression": "npx cypress run --env grepTags=regression"
+    "test:smoke": "npx cypress run --env grepTags=smoke --browser=chrome",
+    "test:regression": "npx cypress run --env grepTags=regression --browser=chrome"
   },
   "keywords": [],
   "author": "",
