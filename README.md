@@ -7,9 +7,9 @@
    cd MyNotes
 2. Install the dependencies:
    npm install
-3. Running All Tests
+3. Running All Tests:
    npx cypress run
-4. Running Smoke Tests
+4. Running Smoke Tests:
    npm run test:smoke
-5. Running Regression Tests
+5. Running Regression Tests:
    npm run test:regression
