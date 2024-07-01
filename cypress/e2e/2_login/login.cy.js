@@ -42,7 +42,7 @@ describe("Login account in the Notes App", ()=>{
             cy.get(':nth-child(2) > .invalid-feedback').should('have.text','Password is required');
         })
     })
-    it('Login with empty username and password', {tags : 'regression'}, ()=> {
+    it('Login with empty email and password', {tags : 'regression'}, ()=> {
         cy.get('button[type="submit"]').click();
         cy.get(':nth-child(1) > .invalid-feedback').should('have.text','Email address is required');
         cy.get(':nth-child(2) > .invalid-feedback').should('have.text','Password is required');
